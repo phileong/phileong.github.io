@@ -1,0 +1,124 @@
+html {
+    font: 100%/1.5 Arial, sans-serif;
+}
+
+body {
+    background: #f9f9f9;
+    color: #303030;
+    font-size: .875em;
+}
+
+
+/********* Layout ****************/
+
+#header {
+    margin: 40px 0 0;
+    text-align: center;
+}
+#header a {
+    display: inline-block;
+}
+
+#container {
+    max-width: 760px;
+    margin: 40px auto 20px;
+    border-radius: 7px;
+    border: 1px solid #eee;
+    background: #fff;
+}
+
+#container .block {
+    padding: 30px 40px 24px;
+    border-top: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+    text-align: center;
+}
+
+#container .content {
+    padding: 30px 60px;
+    margin: auto;
+}
+
+a.main {
+    display: inline-block;
+    padding: 2px;
+    margin-right: 12px;
+    margin-bottom: 6px;
+    text-decoration: underline;
+    color: #1d5884;
+}
+
+ul.posts,
+ul.posts li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul.posts li {
+    margin-bottom: 20px;
+}
+ul.posts .datetime {
+    display: inline-block;
+    width: 130px;
+    float: right;
+    text-transform: uppercase;
+    text-align: right;
+    color: #999;
+}
+ul.posts li a {
+    display: inline-block;
+}
+
+
+/********** Typography ***************/
+
+a {
+    text-decoration: none;
+    color: #269;
+}
+
+code,
+kbd {
+    font-family: monospace;
+    font-size: 90%;
+    padding: 2px 4px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #333;
+}
+pre {
+    font-family: monospace;
+    display: block;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    font-size: 95%;
+    color: #333;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+blockquote {
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    font-size: 1.108em;
+    border-left: 5px solid #eee;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border-collapse: collapse;
+    text-align: left;
+}
+thead tr {
+    padding: 8px;
+    border-bottom: 2px solid #ddd;
+}
+tbody tr {
+    padding: 8px;
+    border-top: 1px solid #ddd;
+}
