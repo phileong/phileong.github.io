@@ -39,6 +39,31 @@ body {
     margin: auto;
 }
 
+.paging {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+}
+.paging .left {
+    margin-left: -440px;
+}
+.paging .right {
+    margin-left: 400px;
+}
+
+.paging a {
+    display: inline-box;
+    width: 40px;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 700;
+    opacity: 0.25;
+    transition: color 0.3s;
+}
+.paging a:hover {
+    opacity: 1;
+}
+
 a.main {
     display: inline-block;
     padding: 2px;
@@ -86,7 +111,7 @@ kbd {
     color: #fff;
     background-color: #333;
 }
-pre {
+pre code {
     font-family: monospace;
     display: block;
     padding: 9.5px;
